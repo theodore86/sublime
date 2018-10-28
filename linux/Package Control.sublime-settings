@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"wget",
+			"urllib"
+		],
+		"osx":
+		[
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"Compare Side-By-Side",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"Vagrant"
+	]
+}
