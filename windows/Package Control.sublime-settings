@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"Compare Side-By-Side",
+		"Package Control",
+		"Predawn",
+		"requirementstxt",
+		"RobotFrameworkAssistant",
+		"SFTP",
+		"SideBarEnhancements",
+		"sublime-text-2-buildview",
+		"sublime-xpath",
+		"SublimeREPL",
+		"Terminal",
+		"xpath"
+	],
+	"repositories":
+	[
+		"https://github.com/rosshadden/sublime-xpath.git"
+	]
+}

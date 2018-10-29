@@ -1,0 +1,4 @@
+{
+    "cmd": ["C:\\ActiveTcl\\bin\\tclsh.exe", "$file"],
+    "quiet": true
+}
