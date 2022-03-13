@@ -15,22 +15,27 @@
 		"windows":
 		[
 			"wininet"
-		]
+		],
 	},
 	"in_process_packages":
 	[
+		"Anaconda",
+		"Material Theme",
+		"Predawn",
 	],
 	"installed_packages":
 	[
 		"Anaconda",
 		"BracketHighlighter",
 		"Compare Side-By-Side",
+		"Dockerfile Syntax Highlighting",
 		"Material Theme",
 		"Package Control",
 		"Predawn",
+		"requirementstxt",
 		"SFTP",
 		"SideBarEnhancements",
 		"SublimeREPL",
-		"Vagrant"
-	]
+		"Vagrant",
+	],
 }

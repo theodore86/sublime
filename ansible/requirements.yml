@@ -1,0 +1,8 @@
+---
+
+roles:
+  - name: 'chaosmail.sublime-text'
+    version: 'master'
+    src: 'https://github.com/chaosmail/ansible-roles-sublime-text.git'
+    scm: 'git'
+...
