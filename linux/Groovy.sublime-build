@@ -1,0 +1,6 @@
+{
+    "cmd": ["/usr/bin/groovy $file_name"],
+    "selector": "source.groovy",
+    "file_regex": "[ ]*at .+[(](.+):([0-9]+)[)]",
+    "shell": true
+}
