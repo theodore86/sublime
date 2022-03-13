@@ -1,16 +1,16 @@
-##### Sublime text editor
+## Sublime text editor
 
 Repository includes configuration parameters for [Sublime Text Editor](https://www.sublimetext.com)
 
-#### Installation process
+### Installation process
 
-### Install ansible
+#### Install ansible through PIP
 
 ```console
 pip install --user ansible
 ```
 
-### Install Sublime Text Editor (ansible playbook)
+#### Install Sublime Text Editor (ansible playbook)
 
 ```console
 cd Sublime/ansible
