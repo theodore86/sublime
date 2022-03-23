@@ -1,21 +1,25 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"ApplySyntax",
-		"BracketHighlighter",
-		"Compare Side-By-Side",
-		"Dockerfile Syntax Highlighting",
-		"Groovy Snippets",
-		"Markdown Extended",
-		"Package Control",
-		"Predawn",
-		"requirementstxt",
-		"Side-by-Side Settings",
-		"SideBarEnhancements",
-		"SublimeREPL",
-	],
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Alignment",
+        "ApplySyntax",
+        "BracketHighlighter",
+        "Compare Side-By-Side",
+        "Dockerfile Syntax Highlighting",
+        "GitGutter",
+        "Groovy Snippets",
+        "Markdown Extended",
+        "Package Control",
+        "Predawn",
+        "requirementstxt",
+        "Side-by-Side Settings",
+        "SideBarEnhancements",
+        "SublimeREPL",
+        "Tabnine",
+        "Terminal"
+    ],
 }
