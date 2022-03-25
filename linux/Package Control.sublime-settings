@@ -1,29 +1,5 @@
 {
 	"bootstrapped": true,
-	"downloader_precedence":
-	{
-		"linux":
-		[
-			"curl",
-			"wget",
-			"urllib"
-		],
-		"osx":
-		[
-			"urllib"
-		],
-		"windows":
-		[
-			"wininet"
-		],
-	},
-	"in_process_packages":
-	[
-		"Anaconda",
-		"Material Theme",
-		"Predawn",
-		"Tabnine",
-	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -43,5 +19,6 @@
 		"SideBarEnhancements",
 		"SublimeREPL",
 		"Vagrant",
+                "Tabnine",
 	],
 }
