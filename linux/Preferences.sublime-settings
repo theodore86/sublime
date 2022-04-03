@@ -60,7 +60,7 @@
 	"show_errors_inline": false,
 	"show_full_path": false,
 	"sidebar_default": true,
-	"theme": "Default.sublime-theme",
+	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,

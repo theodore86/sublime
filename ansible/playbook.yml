@@ -8,6 +8,6 @@
   roles:
       - role: 'chaosmail.sublime-text'
         vars:
-          sublime_version: 4
+          sublime_version: 3
           sublime_package_control: true
 ...
