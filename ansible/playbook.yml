@@ -5,7 +5,7 @@
   gather_facts: true
   connection: 'local'
   vars:
-    config_dir: '{{ ansible_env.HOME}}/.config/sublime_text'
+    config_dir: '{{ ansible_env.HOME}}/.config/sublime-text'
   roles:
       - role: 'chaosmail.sublime-text'
         vars:
@@ -27,5 +27,4 @@
           owner: '{{ ansible_env.USER }}'
           group: '{{ ansible_env.USER }}'
           mode: 0664
-
 ...
