@@ -2,12 +2,30 @@
 
 - name: 'Play to install Sublime Text Editor'
   hosts: 'all'
-  become: true
   gather_facts: true
   connection: 'local'
+  vars:
+    config_dir: '{{ ansible_env.HOME}}/.config/sublime_text'
   roles:
       - role: 'chaosmail.sublime-text'
         vars:
-          sublime_version: 3
-          sublime_package_control: true
+          sublime_version: 4
+          sublime_package_control: false
+  tasks:
+      - name: 'Create Package control directory'
+        file:
+          path: '{{ config_dir }}/Installed Packages'
+          state: 'directory'
+          owner: '{{ ansible_env.USER }}'
+          group: '{{ ansible_env.USER }}'
+          mode: 0770
+
+      - name: 'Copy Package control'
+        copy:
+          src: '{{ playbook_dir }}/files/Package Control.sublime-package'
+          dest: '{{ config_dir }}/Installed Packages/'
+          owner: '{{ ansible_env.USER }}'
+          group: '{{ ansible_env.USER }}'
+          mode: 0664
+
 ...

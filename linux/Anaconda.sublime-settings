@@ -1,4 +1,5 @@
 {
+    "python_interpreter": "python3",
     "auto_formatting": true,
     "autoformat_ignore":
     [
@@ -12,5 +13,6 @@
     ],
     "anaconda_linter_underlines": false,
     "anaconda_linter_mark_style": "none",
-    "display_signatures": false
+    "display_signatures": false,
+    "swallow_startup_errors": true
 }
