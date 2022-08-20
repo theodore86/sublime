@@ -4,16 +4,14 @@ Repository includes configuration parameters for [Sublime Text Editor](https://w
 
 ### Installation process
 
-#### Install ansible through PIP
+#### Install ansible through PIP (or through the respective package manager)
 
 ```console
 pip install --user ansible
 ```
 
-#### Install Sublime Text Editor (ansible playbook)
+#### Setup and configure Sublime Text Editor
 
 ```console
-cd Sublime/ansible
-ansible-galaxy install -r requirements.yml
-ansible-playbook -K -i inventory.yml playbook.yml
+make sublime
 ```
