@@ -1,10 +1,8 @@
 ---
-
 - name: 'Play to install Sublime Text Editor'
   hosts: 'all'
   gather_facts: true
   connection: 'local'
-  vars:
     config_dir: '{{ ansible_env.HOME}}/.config/sublime-text'
   roles:
       - role: 'chaosmail.sublime-text'

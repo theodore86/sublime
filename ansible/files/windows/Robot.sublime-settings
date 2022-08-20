@@ -48,8 +48,7 @@
     */
     "robot_framework_module_search_path":
     [
-        "C:\\Users\\georgoma\\Test Automation\\E2E\\E2E-MG-Robot",
-        "C:\\Users\\georgoma\\Test Automation\\E2E\\E2E-IMS-Robot"
+        "C:\\Users\\theogeo\\Test Automation\\projects\\automation",
     ],
 
     /*
