@@ -30,9 +30,23 @@
 
       - name: 'Copy Package control settings'
         copy:
-          src: '{{ playbook_dir }}/files/{{ ansible_system | lower }}/Package Control.sublime-settings'
+          src: '{{ playbook_dir }}/files/{{ ansible_system | lower }}/{{ item }}'
           dest: '{{ config_dir}}/Packages/User/'
           owner: '{{ ansible_env.USER }}'
           group: '{{ ansible_env.USER }}'
           mode: 0664
+        loop:
+          - 'Package Control.sublime-settings'
+          - 'Anaconda.sublime-settings'
+
+      - name: 'Launch sublime-text editor - Plugin provisioning'
+        shell: 'subl && subl --version'
+        args:
+          executable: '/bin/bash'
+        changed_when: false
+        register: 'subl_version'
+
+      - name: 'Display sublime-text editor version'
+        debug:
+          var: 'subl_version.stdout'
 ...
