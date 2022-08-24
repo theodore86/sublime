@@ -1,0 +1,13 @@
+## Auto detect text files and perform LF normalization
+* text=auto
+
+## DOCUMENTS
+*.md text
+LICENSE text
+
+## CONFIG
+.gitattributes text
+.gitignore text
+.yml text
+.yaml text
+.cfg text
